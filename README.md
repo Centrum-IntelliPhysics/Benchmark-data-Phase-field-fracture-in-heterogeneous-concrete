@@ -111,13 +111,13 @@ deformed_final = coords + disp[:, -1, :]
 
 ## Visualizations
 
-**Crack evolution for contrasting mesostructures.** Four realizations (rows) at load steps chosen so that the crack tip advances by roughly equal increments (columns). Aggregate outlines are overlaid in white. Depending on whether the aggregates sit on or off the crack path, the crack runs straight through, deflects around an inclusion, or is temporarily arrested before resuming.
+**Crack evolution for contrasting mesostructures.** 
 
 <p align="center">
   <img src="figures/different_cases.png" alt="Damage evolution for four mesostructures" width="950"/>
 </p>
 
-**Displacement history.** The three components for one realization on the mid-thickness plane, at the same load steps. The dominant response is the mode-I opening in $u_y$; $u_x$ concentrates around the advancing crack tip and $u_z$ reflects the through-thickness Poisson contraction. The thin white band marks fully damaged elements, which are removed rather than interpolated through because the displacement is discontinuous across an open crack.
+**Displacement history.** 
 
 <p align="center">
   <img src="figures/displacement_components.png" alt="Displacement components over the loading history" width="950"/>
