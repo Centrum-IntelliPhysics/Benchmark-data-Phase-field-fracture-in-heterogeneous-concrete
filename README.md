@@ -160,9 +160,9 @@ If you use this dataset in your work, please cite it as follows:
 
 ```
 @data{CONCRETE_PF_2026,
-  author    = {Liu, Zhan and Goswami, Somdatta},
+  author    = {Liu, Zhan and Gupta, Abhinav and Goswami, Somdatta},
   publisher = {Johns Hopkins Research Data Repository},
-  title     = {{Data and code associated with: A phase-field dataset for fracture in heterogeneous concrete under varying notch positions and aggregate distributions}},
+  title     = {{Data and code associated with the publication: A Phase-Field Dataset for Fracture in a Heterogeneous Concrete-Inspired Composite with Varying Notch Heights and Aggregate Positions}},
   year      = {2026},
   version   = {V1},
   doi       = {},
@@ -176,4 +176,4 @@ If you use this dataset in your work, please cite it as follows:
 
 ## Contact
 
-In case you need more information, please feel free to contact Zhan Liu (zliu274@jhu.edu) or Prof. Somdatta Goswami (somdatta@jhu.edu).
+In case you need more information, please feel free to contact Zhan Liu (zliu274@jhu.edu), Abhinav Gupta (abhigupta.dr@gmail.com), or Prof. Somdatta Goswami (somdatta@jhu.edu).
