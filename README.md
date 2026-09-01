@@ -20,7 +20,7 @@ The complete collection comprises **1100** distinct mesostructure realizations. 
 A plate of dimensions $1.0 \times 1.0 \times 0.1$ carries a through-thickness notch of length $a = 0.1$ at height $h$ on the left face. Four aggregates of radius $r_\mathrm{agg} = 0.02$ sit directly on the ligament ahead of the notch tip, so the propagating crack is forced to interact with them.
 
 <p align="center">
-  <img src="figures/geometry.png" alt="Geometry, modulus field, and sampled inputs" width="900"/>
+  <img src="figures/geometry.pdf" alt="Geometry, modulus field, and sampled inputs" width="900"/>
 </p>
 
 **Boundary conditions.** The bottom face is a roller ($u_y = 0$, free to contract laterally); the single edge $x = y = 0$ is fully fixed to remove the remaining rigid-body translations; the top face carries a monotonically increasing displacement $u_y = u_\mathrm{max}\,t$ with $u_\mathrm{max} = 0.02$; the two faces normal to $z$ are traction-free.
@@ -39,7 +39,7 @@ A plate of dimensions $1.0 \times 1.0 \times 0.1$ carries a through-thickness no
 ## Generation pipeline
 
 <p align="center">
-  <img src="figures/framework.png" alt="Dataset generation framework" width="900"/>
+  <img src="figures/framework.pdf" alt="Dataset generation framework" width="900"/>
 </p>
 
 Meshes are generated with **Gmsh** (the surfaces above and below the notch are meshed separately and extruded, so the notch is a genuine geometric discontinuity rather than a pre-damaged band) and the coupled displacement/phase-field problem is solved in **FEniCS** with a staggered scheme, one pass per load increment. Because the mesh refinement box follows the sampled notch height, **the mesh is regenerated for every realization**: node counts range from 42,406 to 44,690 and element counts from 244,218 to 247,874.
@@ -56,7 +56,7 @@ true_endpointclean_centerline_joint1100.npz    947 KB     extracted crack center
 ```
 
 <p align="center">
-  <img src="figures/fs.png" alt="Structure of the released dataset" width="850"/>
+  <img src="figures/fs.pdf" alt="Structure of the released dataset" width="850"/>
 </p>
 
 The main archive holds 1100 groups, `job_0000` … `job_1099`, one per simulation:
@@ -114,13 +114,13 @@ deformed_final = coords + disp[:, -1, :]
 **Crack evolution for contrasting mesostructures.** Four realizations (rows) at load steps chosen so that the crack tip advances by roughly equal increments (columns). Aggregate outlines are overlaid in white. Depending on whether the aggregates sit on or off the crack path, the crack runs straight through, deflects around an inclusion, or is temporarily arrested before resuming.
 
 <p align="center">
-  <img src="figures/different_cases.png" alt="Damage evolution for four mesostructures" width="950"/>
+  <img src="figures/different_cases.pdf" alt="Damage evolution for four mesostructures" width="950"/>
 </p>
 
 **Displacement history.** The three components for one realization on the mid-thickness plane, at the same load steps. The dominant response is the mode-I opening in $u_y$; $u_x$ concentrates around the advancing crack tip and $u_z$ reflects the through-thickness Poisson contraction. The thin white band marks fully damaged elements, which are removed rather than interpolated through because the displacement is discontinuous across an open crack.
 
 <p align="center">
-  <img src="figures/displacement_components.png" alt="Displacement components over the loading history" width="950"/>
+  <img src="figures/displacement_components.pdf" alt="Displacement components over the loading history" width="950"/>
 </p>
 
 ---
