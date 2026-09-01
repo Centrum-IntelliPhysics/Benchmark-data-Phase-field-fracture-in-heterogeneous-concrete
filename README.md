@@ -176,4 +176,4 @@ If you use this dataset in your work, please cite it as follows:
 
 ## Contact
 
-In case you need more information, please feel free to contact Zhan Liu (zliu274@jhu.edu), Abhinav Gupta (abhigupta.dr@gmail.com), or Prof. Somdatta Goswami (somdatta@jhu.edu).
+In case you need more information, please feel free to contact Zhan Liu (zliu274@jhu.edu), Prof. Abhinav Gupta (abhigupta.dr@gmail.com), or Prof. Somdatta Goswami (somdatta@jhu.edu).
