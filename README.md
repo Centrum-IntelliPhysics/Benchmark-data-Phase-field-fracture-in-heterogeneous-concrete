@@ -13,6 +13,10 @@ The complete collection comprises **1100** distinct mesostructure realizations. 
 <!-- TODO: paste the JHU Research Data Repository link / DOI here once minted -->
 **[link to be added]**
 
+<p align="center">
+  <img src="figures/joint1100_last_step_3d.gif" alt="joint1100_last_step_3d" width="900"/>
+</p>
+
 ---
 
 ## Problem setup
