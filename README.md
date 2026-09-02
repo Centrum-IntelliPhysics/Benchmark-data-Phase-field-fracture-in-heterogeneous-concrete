@@ -60,7 +60,7 @@ true_endpointclean_centerline_joint1100.npz    947 KB     extracted crack center
 ```
 
 <p align="center">
-  <img src="figures/fs.png" alt="Structure of the released dataset" width="850"/>
+  <img src="figures/fs.png" alt="Structure of the released dataset" width="900"/>
 </p>
 
 The main archive holds 1100 groups, `job_0000` … `job_1099`, one per simulation:
@@ -118,13 +118,13 @@ deformed_final = coords + disp[:, -1, :]
 **Crack evolution for contrasting mesostructures.** 
 
 <p align="center">
-  <img src="figures/different_cases.png" alt="Damage evolution for four mesostructures" width="950"/>
+  <img src="figures/different_cases.png" alt="Damage evolution for four mesostructures" width="900"/>
 </p>
 
 **Displacement history.** 
 
 <p align="center">
-  <img src="figures/displacement_components.png" alt="Displacement components over the loading history" width="950"/>
+  <img src="figures/displacement_components.png" alt="Displacement components over the loading history" width="900"/>
 </p>
 
 ---
