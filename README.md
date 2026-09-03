@@ -14,7 +14,7 @@ The complete collection comprises **1100** distinct mesostructure realizations. 
 **[link to be added]**
 
 <p align="center">
-  <img src="figures/joint1100_last_step_3d.gif" alt="joint1100_last_step_3d" width="900"/>
+  <img src="figures/joint1100_last_step_3d.gif" alt="joint1100_last_step" width="900"/>
 </p>
 
 ---
