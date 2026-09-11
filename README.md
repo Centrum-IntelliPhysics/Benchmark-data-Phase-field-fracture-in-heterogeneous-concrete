@@ -11,7 +11,7 @@ This dataset contains **1100 finite-element simulations** of a 3D single-edge-no
 The complete collection comprises **1100** distinct mesostructure realizations. The full dataset is available in the JHU archive at:
 
 <!-- TODO: paste the JHU Research Data Repository link / DOI here once minted -->
-**[link to be added]**
+**[(https://doi.org/10.7281/T1BQ2IHE)]**
 
 <p align="center">
   <img src="./figures/joint1100_last_step_3d.gif" alt="Dataset visualization" width="900"/>
@@ -169,8 +169,7 @@ If you use this dataset in your work, please cite it as follows:
   title     = {{Data and code associated with the publication: A Phase-Field Dataset for Fracture in a Heterogeneous Concrete-Inspired Composite with Varying Notch Heights and Aggregate Positions}},
   year      = {2026},
   version   = {V1},
-  doi       = {},
-  url       = {}
+  doi       = {https://doi.org/10.7281/T1BQ2IHE},
 }
 ```
 
